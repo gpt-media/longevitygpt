@@ -33,4 +33,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://www.thelongevitygpt.com/sitemap-index.xml
+Sitemap: https://thelongevitygpt.com/sitemap-index.xml
