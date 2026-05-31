@@ -1,43 +1,56 @@
 ---
-// Markets live under /my/ and /sg/; the bare root is a region landing.
-// Detect market + language so logo, nav, and switcher point to the right place.
-const p = Astro.url.pathname;
-const isMY = p === '/my' || p.startsWith('/my/');
-const isSG = p === '/sg' || p.startsWith('/sg/');
-const market = isMY ? 'my' : isSG ? 'sg' : null;
+import type { Edition } from '../lib/editions';
+import { editionsByCountry, pagePath } from '../lib/editions';
+import { SITE, UI } from '../lib/site';
 
-let lang: 'en' | 'ms' | 'zh' = 'en';
-let home = '/';
-let about = '/';
-let sw = { en: '/', ms: '/', zh: '/' };
-if (market) {
-  const mB = `/${market}`;
-  let rest = p.slice(3) || '/';
-  if (rest === '/ms' || rest.startsWith('/ms/')) { lang = 'ms'; rest = rest.slice(3) || '/'; }
-  else if (rest === '/zh' || rest.startsWith('/zh/')) { lang = 'zh'; rest = rest.slice(3) || '/'; }
-  const lB = lang === 'en' ? '' : `/${lang}`;
-  home = `${mB}${lB}/`;
-  about = `${mB}${lB}/about/`;
-  sw = { en: `${mB}${rest}`, ms: `${mB}/ms${rest}`, zh: `${mB}/zh${rest}` };
+interface Props {
+  edition: Edition;
+  slug?: string | null;
+  presentEditions?: Edition[];
+  pathOverride?: string;
 }
-const t = {
-  home: { en: 'Home', ms: 'Laman Utama', zh: '首页' }[lang],
-  about: { en: 'About', ms: 'Tentang', zh: '关于' }[lang],
-};
+const { edition, slug = null, presentEditions, pathOverride } = Astro.props;
+const t = UI[edition.ui];
+const present = presentEditions ?? [edition];
+const presentKeys = new Set(present.map((e) => e.key));
+const homeHref = pagePath(edition); // logo + Home stay within the current edition
+
+// No auto-redirects (Google i18n rule): the reader switches here. Land on the same
+// page where it exists in the target edition, else that edition's homepage.
+function switchHref(e: Edition): string {
+  if (pathOverride) return e.key === edition.key ? pathOverride : pagePath(e);
+  if (presentKeys.has(e.key)) return pagePath(e, slug);
+  return pagePath(e);
+}
+const groups = editionsByCountry();
 ---
 <header class="site-header">
   <div class="wrap">
-    <a href={market ? home : '/'} class="logo">The<span>Longevity</span>GPT</a>
-    {market && (
-      <nav>
-        <a href={home}>{t.home}</a>
-        <a href={about}>{t.about}</a>
-        <span class="lang-switch">
-          <a href={sw.en} class={lang === 'en' ? 'on' : ''}>EN</a>
-          <a href={sw.ms} class={lang === 'ms' ? 'on' : ''}>BM</a>
-          <a href={sw.zh} class={lang === 'zh' ? 'on' : ''}>中文</a>
-        </span>
-      </nav>
-    )}
+    <a href={homeHref} class="logo">{SITE.logo.pre}<span>{SITE.logo.accent}</span>{SITE.logo.post}</a>
+    <nav>
+      <a href={homeHref}>{t.navHome}</a>
+      <a href="/about/">{t.navAbout}</a>
+      <details class="region-picker">
+        <summary>{edition.flag} {edition.langLabel}</summary>
+        <div class="region-menu" role="menu" aria-label={t.pickerLabel}>
+          {groups.map((g) => (
+            <div class="region-group">
+              <span class="region-name">{g.flag} {g.country}</span>
+              <ul>
+                {g.editions.map((e) => (
+                  <li>
+                    <a
+                      href={switchHref(e)}
+                      class={e.key === edition.key ? 'on' : undefined}
+                      aria-current={e.key === edition.key ? 'true' : undefined}
+                    >{e.langLabel}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </details>
+    </nav>
   </div>
 </header>

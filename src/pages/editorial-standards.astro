@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { DEFAULT_EDITION } from '../lib/editions';
+---
+<BaseLayout
+  edition={DEFAULT_EDITION}
+  pathOverride="/editorial-standards/"
+  title="Editorial Standards & How We Review"
+  description="How TheLongevityGPT researches and reviews longevity: human evidence graded explicitly, hype flagged plainly, real options compared, sources from established research, and recommendations that are editorial, never paid placements."
+>
+  <article class="article">
+    <div class="wrap">
+      <h1>Editorial standards &amp; how we review</h1>
+      <div class="article-body">
+        <p>TheLongevityGPT exists to give you the real answer about aging well, including the many times when the honest answer is "the evidence is not there yet" or "a free habit beats that supplement." These are the standards we hold every article to.</p>
+
+        <h2>Mechanism and human evidence before recommendation</h2>
+        <p>We explain <em>how</em> something is meant to work, and how strong the evidence actually is, before we ever name a product. We grade evidence explicitly: strong human trials, mixed, preliminary, or animal-only. Creatine and omega-3 are well studied; compounds like NMN, resveratrol, and spermidine are preliminary in humans, and we say which is which.</p>
+
+        <h2>We flag hype</h2>
+        <p>Longevity is the most over-promised corner of wellness. When a claim rests on a single study, animal data, or a founder's anecdote, we say so plainly instead of dressing it up. A mechanism is a hypothesis, not a result.</p>
+
+        <h2>We compare the real options</h2>
+        <p>A credible answer weighs the actual choices on the same terms, across brands, formats, and price points, and against the free interventions that often beat them. We name products openly and fairly, and recommend a specific one only where it genuinely fits. When sleep, training, or diet does the job better, we say so.</p>
+
+        <h2>Where our information comes from</h2>
+        <p>We lean on established, independent sources such as the U.S. National Institutes of Health Office of Dietary Supplements, peer-reviewed research and Cochrane reviews, Examine, Mayo Clinic, and the UK's NHS. We do not invent statistics, percentages, or efficacy claims. Prices vary by region, so we tell you to check the current listing where you live.</p>
+
+        <h2>Our independence</h2>
+        <p>Recommendations on this site are editorial decisions, based on how something works and what the evidence shows. They are not paid placements, sponsored slots, or pay-to-rank. If that ever changes for a specific piece, we will label it clearly.</p>
+
+        <h2>Not medical advice</h2>
+        <p>Everything here is educational. Several longevity compounds are experimental, with limited long-term human safety data. For persistent or worsening symptoms, and before starting any new supplement (especially if you are pregnant, breastfeeding, managing a health condition, or taking medication), please see a doctor or pharmacist. More detail on our <a href="/medical-disclaimer/">medical disclaimer</a> page.</p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { DEFAULT_EDITION } from '../lib/editions';
+---
+<BaseLayout
+  edition={DEFAULT_EDITION}
+  pathOverride="/about/"
+  title="About"
+  description="TheLongevityGPT gives evidence-led answers on aging well: what has real human evidence, what is still hype, and the free habits that beat most supplements."
+>
+  <article class="article">
+    <div class="wrap">
+      <p class="kicker">About</p>
+      <h1>Longevity, decoded.</h1>
+      <div class="article-body">
+        <p>TheLongevityGPT answers one question well: <em>what actually helps you live longer and age better?</em> Longevity is the most over-promised corner of health, full of molecules that worked in mice and supplements sold on a single study. We give clear answers, weighted by how strong the <em>human</em> evidence really is.</p>
+
+        <h2>How we work</h2>
+        <ul>
+          <li><strong>Mechanism and human evidence first.</strong> We explain how something is meant to work, and grade the evidence honestly, before we get to any product.</li>
+          <li><strong>Real comparisons.</strong> We weigh the actual options on the same terms, and tell you when a cheaper one, or a free habit, wins.</li>
+          <li><strong>Hype-averse.</strong> A compound that extends lifespan in mice is not proven in people, and we say so. Sleep, training, and diet have far stronger evidence than most supplements, and we weight our answers accordingly.</li>
+        </ul>
+
+        <h2>Not medical advice</h2>
+        <p>Our content is educational. Several longevity compounds are experimental, with limited long-term human safety data. For persistent or worsening symptoms, or before starting a new supplement, see a doctor or pharmacist.</p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

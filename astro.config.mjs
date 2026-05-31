@@ -1,14 +1,13 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// TheLongevityGPT — AI-native, evidence-led longevity answers for life in Malaysia.
+// TheLongevityGPT — AI-native, evidence-led, hype-averse longevity answers.
 // Static output = fast, clean HTML that AI answer engines (GPTBot, PerplexityBot,
-// ClaudeBot, Google) can read + cite. This is the whole point: be the source.
+// ClaudeBot, Google) can read + cite. English is the default at the root domain
+// (x-default); country editions (/my/ /sg/ /tw/) + language subfolders are one
+// `articles` collection keyed by edition sub-folder. See src/lib/editions.ts.
 export default defineConfig({
   site: 'https://thelongevitygpt.com',
   integrations: [sitemap()],
   build: { format: 'directory' },
-  // Locale routing: all content lives under /my/ so adding /sg/, /us/, /uk/ later is a clean copy.
-  // Root (/) -> /my/ is handled by a SERVER-SIDE redirect in vercel.json (instant 307, no
-  // visible "Redirecting..." flash page that Astro's static meta-refresh redirect produced).
 });

@@ -1,35 +1,23 @@
 import { defineCollection, z } from 'astro:content';
+import { SITE } from '../lib/site';
 
-// Shared article schema. `faqs` powers FAQPage structured data (high-value for AI citation).
+// One `articles` collection. Each article exists once per edition, stored under an
+// edition sub-folder: src/content/articles/<editionKey>/<slug>.md
+//   en/best-probiotics.md       -> root (x-default, English)
+//   my-en/best-probiotics.md    -> /my/articles/best-probiotics/
+//   my-zh/best-probiotics.md    -> /my/zh/articles/best-probiotics/  ... (8 editions)
+// Slug is stable across editions (the hreflang key); the edition folder carries
+// the localized/translated copy. entry.slug => '<editionKey>/<slug>'.
 const articleSchema = z.object({
   title: z.string(),
-  description: z.string(),               // the direct-answer summary; also the meta description
+  description: z.string(),
   publishDate: z.coerce.date(),
   updatedDate: z.coerce.date().optional(),
-  author: z.string().default('TheLongevityGPT Editors'),
+  author: z.string().default(SITE.defaultAuthor),
   category: z.string().default('Longevity'),
   featured: z.boolean().default(false),
   faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
 });
 
-// One collection per language. Same schema; slugs match across languages so the
-// language versions of an article share a stable URL key (powers hreflang later).
-//   articles      -> en-MY  -> /articles/<slug>/
-//   articles-ms   -> ms-MY  -> /ms/articles/<slug>/
-//   articles-zh   -> zh-MY  -> /zh/articles/<slug>/
 const articles = defineCollection({ type: 'content', schema: articleSchema });
-const articlesMs = defineCollection({ type: 'content', schema: articleSchema });
-const articlesZh = defineCollection({ type: 'content', schema: articleSchema });
-// Singapore market (en-SG, ms-SG, zh-SG).
-const articlesSg = defineCollection({ type: 'content', schema: articleSchema });
-const articlesSgMs = defineCollection({ type: 'content', schema: articleSchema });
-const articlesSgZh = defineCollection({ type: 'content', schema: articleSchema });
-
-export const collections = {
-  'articles': articles,
-  'articles-ms': articlesMs,
-  'articles-zh': articlesZh,
-  'articles-sg': articlesSg,
-  'articles-sg-ms': articlesSgMs,
-  'articles-sg-zh': articlesSgZh,
-};
+export const collections = { articles };
