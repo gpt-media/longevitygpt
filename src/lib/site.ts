@@ -7,7 +7,7 @@ import type { UiKey } from './editions';
 
 export const SITE = {
   name: 'TheLongevityGPT',
-  domain: 'https://thelongevitygpt.com',
+  domain: 'https://www.thelongevitygpt.com',
   /** logo renders as: The<span class=accent>Longevity</span>GPT */
   logo: { pre: 'The', accent: 'Longevity', post: 'GPT' },
   defaultAuthor: 'TheLongevityGPT Editors',
