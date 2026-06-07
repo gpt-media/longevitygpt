@@ -1,12 +1,35 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { DEFAULT_EDITION } from '../lib/editions';
+import { SITE } from '../lib/site';
+
+const abs = (p: string) => new URL(p, Astro.site).href;
+// AboutPage + Organization (the publisher entity) — the E-E-A-T surface AI engines read to
+// decide who is behind these YMYL health answers and what they're expert in.
+const aboutLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: `About ${SITE.name}`,
+    url: abs('/about/'),
+    mainEntity: {
+      '@type': 'Organization',
+      name: SITE.name,
+      url: SITE.domain,
+      description: SITE.orgDescription,
+      foundingDate: String(SITE.foundingYear),
+      knowsAbout: SITE.knowsAbout,
+      publishingPrinciples: abs('/editorial-standards/'),
+    },
+  },
+];
 ---
 <BaseLayout
   edition={DEFAULT_EDITION}
   pathOverride="/about/"
   title="About"
   description="TheLongevityGPT gives evidence-led answers on aging well: what has real human evidence, what is still hype, and the free habits that beat most supplements."
+  jsonLd={aboutLd}
 >
   <article class="article">
     <div class="wrap">
@@ -21,6 +44,11 @@ import { DEFAULT_EDITION } from '../lib/editions';
           <li><strong>Real comparisons.</strong> We weigh the actual options on the same terms, and tell you when a cheaper one, or a free habit, wins.</li>
           <li><strong>Hype-averse.</strong> A compound that extends lifespan in mice is not proven in people, and we say so. Sleep, training, and diet have far stronger evidence than most supplements, and we weight our answers accordingly.</li>
         </ul>
+
+        <h2>Who writes and reviews this</h2>
+        <p>Our articles are researched and written by the <strong>{SITE.author.name}</strong> — a research-led team that reads primary literature: clinical trials, systematic reviews, and findings from NIH, PubMed, and peer-reviewed journals. We grade evidence explicitly — strong, mixed, preliminary, or animal/in-vitro only — and we say so in every article. We do not present preliminary findings as settled science.</p>
+        <p>We are deliberately hype-averse: human evidence takes precedence over animal studies or in-vitro findings. When the honest answer is "the evidence is weak," "this has only been tested in mice," or "you don't need this supplement," we say so. Every article is checked against our <a href="/editorial-standards/">editorial standards</a> before publication — mechanism explained, evidence graded, sources real and cited, no claim stretched beyond what the research supports.</p>
+        <p>We do not currently list a named medical reviewer. When we engage a credentialed expert, their name and qualification will appear here and on every article they review. We will never fabricate or imply a credential we do not have. See our <a href="/editorial-standards/">editorial standards</a> and <a href="/medical-disclaimer/">medical disclaimer</a>.</p>
 
         <h2>Not medical advice</h2>
         <p>Our content is educational. Several longevity compounds are experimental, with limited long-term human safety data. For persistent or worsening symptoms, or before starting a new supplement, see a doctor or pharmacist.</p>
