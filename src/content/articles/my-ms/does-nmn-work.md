@@ -119,9 +119,9 @@ NMN tersedia secara meluas tetapi anda perlu memilih dengan berhati-hati memanda
 
 **Kedai kesihatan:** GNC Malaysia menyimpan NMN dan produk prekursor NAD+ berkaitan. BIG Pharmacy dan Caring Pharmacy membawa beberapa rangkaian suplemen panjang umur, walaupun ketersediaan NMN berbeza mengikut cawangan. Watsons dan Guardian lebih menumpukan pada suplemen arus perdana dan mungkin membawa pilihan yang terhad.
 
-**Dalam talian (tempatan):** Shopee dan Lazada mempunyai pilihan yang paling luas dan harga yang paling rendah, sekitar RM90--280 setiap bekalan sebulan untuk jenama arus perdana bergantung pada dos, tetapi dokumentasi ujian pihak ketiga disediakan secara tidak konsisten. Tapis untuk penjual dengan penilaian yang kukuh dan minta sijil analisis sebelum membeli.
+**Dalam talian (tempatan):** Shopee dan Lazada mempunyai pilihan yang paling luas dan harga yang paling rendah, sekitar RM90–280 setiap bekalan sebulan untuk jenama arus perdana bergantung pada dos, tetapi dokumentasi ujian pihak ketiga disediakan secara tidak konsisten. Tapis untuk penjual dengan penilaian yang kukuh dan minta sijil analisis sebelum membeli.
 
-**Pilihan import:** iHerb menghantar ke Malaysia dan membawa jenama antarabangsa yang mantap (Tru Niagen, Elysium, Life Extension) dengan rekod ujian yang telus. Harga selepas penghantaran biasanya sekitar RM150--350 sebulan (anggaran, semak senarai semasa). Pelepasan kastam untuk kuantiti kegunaan peribadi secara amnya mudah, walaupun penghantaran mengambil masa 7--14 hari.
+**Pilihan import:** iHerb menghantar ke Malaysia dan membawa jenama antarabangsa yang mantap (Tru Niagen, Elysium, Life Extension) dengan rekod ujian yang telus. Harga selepas penghantaran biasanya sekitar RM150–350 sebulan (anggaran, semak senarai semasa). Pelepasan kastam untuk kuantiti kegunaan peribadi secara amnya mudah, walaupun penghantaran mengambil masa 7–14 hari.
 
 **Nota penyimpanan:** Haba dan kelembapan Malaysia mengurai suplemen lebih cepat daripada iklim sederhana. Simpan kapsul NMN di tempat yang sejuk dan kering jauh daripada cahaya matahari langsung. Kabinet dapur di sebelah dapur masak bukanlah pilihan ideal. Bekas tertutup dalam bilik berhawa dingin atau almari yang kering dan sejuk sesuai untuk kebanyakan bentuk kapsul.
 

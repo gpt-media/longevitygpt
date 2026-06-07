@@ -109,7 +109,7 @@ Flag NMN as an experimental compound with limited long-term human safety data. I
 
 ## What about the regulatory situation?
 
-NMN's legal status has been genuinely unstable, which tells you something about how new this all is. In the United States the FDA first acknowledged NMN as a new dietary ingredient, then in 2022 reversed course and excluded it from the dietary-supplement definition, partly because it had been studied as an investigational drug. After legal challenges, the FDA reversed again in late 2025 and confirmed NMN can be sold as a supplement, while still requiring premarket notification. In Singapore, NMN is sold as a health supplement and is not required to be registered with the Health Sciences Authority (HSA) unless it contains a regulated substance -- but HSA's advisory is clear that health supplements should not make disease-cure or therapeutic claims, and any product making such claims is in breach of regulations.
+NMN's legal status has been genuinely unstable, which tells you something about how new this all is. In the United States the FDA first acknowledged NMN as a new dietary ingredient, then in 2022 reversed course and excluded it from the dietary-supplement definition, partly because it had been studied as an investigational drug. After legal challenges, the FDA reversed again in late 2025 and confirmed NMN can be sold as a supplement, while still requiring premarket notification. In Singapore, NMN is sold as a health supplement and is not required to be registered with the Health Sciences Authority (HSA) unless it contains a regulated substance, but HSA's advisory is clear that health supplements should not make disease-cure or therapeutic claims, and any product making such claims is in breach of regulations.
 
 The practical point for a buyer: this is a young, contested ingredient. Quality and labelling accuracy vary, third-party testing matters, and the rules may keep shifting. That is not a reason to panic, but it is a reason not to treat NMN like a settled, well-regulated vitamin.
 
@@ -120,7 +120,7 @@ NMN is widely available in Singapore through physical and online channels. Price
 - **GNC** (outlets at major malls island-wide) carries NMN and NR products, typically from established US brands. Expect to pay approximately SGD 80–180 for a month's supply at standard doses, depending on the brand and dose.
 - **Guardian and Watsons** stock a smaller selection, occasionally with loyalty-card promotions that bring prices down. Worth checking in-store.
 - **iHerb** (ships to Singapore with reasonable freight) often has lower per-unit prices, particularly for bulk packs. Approximate SGD 50–120 per month's supply, depending on brand and dosage; check current listing as prices shift.
-- **Shopee and Lazada** carry a wide range, including direct-from-brand and third-party sellers. Prices can be as low as SGD40--80 per month for generic or house-brand formulations, though label accuracy and third-party testing are harder to verify on marketplace listings. Look for sellers with strong ratings and COA (certificate of analysis) documentation.
+- **Shopee and Lazada** carry a wide range, including direct-from-brand and third-party sellers. Prices can be as low as SGD40–80 per month for generic or house-brand formulations, though label accuracy and third-party testing are harder to verify on marketplace listings. Look for sellers with strong ratings and COA (certificate of analysis) documentation.
 
 A reasonable rule of thumb: if a product is significantly cheaper than comparable dosages elsewhere with no third-party testing disclosed, treat that as a yellow flag on quality.
 
@@ -134,7 +134,7 @@ A reasonable rule of thumb: if a product is significantly cheaper than comparabl
 
 ## The bottom line
 
-NMN does one thing the trials clearly support: it raises NAD+ in your blood, safely, over the short term. Everything beyond that -- the longer life, the reversed aging, the disease protection -- lives in mouse studies and marketing, not in human evidence. The premise that NAD+ even reliably falls with age in people is shakier than you have been told.
+NMN does one thing the trials clearly support: it raises NAD+ in your blood, safely, over the short term. Everything beyond that (the longer life, the reversed aging, the disease protection) lives in mouse studies and marketing, not in human evidence. The premise that NAD+ even reliably falls with age in people is shakier than you have been told.
 
 It is preliminary, it is expensive, and the long-term safety story is unwritten. None of that makes it a scam, and the science may yet mature. But today, the hype is running well ahead of the evidence. If longer, healthier years are the goal, spend on the gym shoes first and watch this space on NMN.
 

@@ -65,12 +65,12 @@ Cochrane reviews, which pool the best randomised trials, found that omega-3 supp
 
 The single most useful practical skill here is reading the back of the bottle. A "1000 mg fish oil" softgel might contain only a few hundred milligrams of actual EPA plus DHA; the rest is other oils. Always add up the **EPA and DHA numbers**, which is the dose that matters.
 
-For everyday use, the food-first benchmark is two portions of fish a week, one of them oily, and many people who supplement land somewhere in the range of **250--1000 mg combined EPA plus DHA per day**. The multi-gram doses used in cardiovascular trials are a medical decision made with a doctor, not a sensible default to self-prescribe.
+For everyday use, the food-first benchmark is two portions of fish a week, one of them oily, and many people who supplement land somewhere in the range of **250–1000 mg combined EPA plus DHA per day**. The multi-gram doses used in cardiovascular trials are a medical decision made with a doctor, not a sensible default to self-prescribe.
 
 A few buying notes for Singapore shoppers:
 
-- **Quality and freshness matter more than brand.** Rancid fish oil is common; a product that tastes strongly "off" may be oxidised. Brands such as Nordic Naturals, Now Foods, and Thorne are widely stocked at GNC and iHerb, and deliver standardised EPA/DHA doses -- the choice is mostly about dose per capsule, freshness, and price.
-- **Where to buy in Singapore.** You will find decent options at **Watsons**, **Guardian**, and **GNC** outlets islandwide, or order online via **iHerb**, **Shopee**, or **Lazada** for a wider range. Expect to pay roughly **SGD40--80** for a 60--120 softgel bottle of a reputable brand (approximate; check current listing).
+- **Quality and freshness matter more than brand.** Rancid fish oil is common; a product that tastes strongly "off" may be oxidised. Brands such as Nordic Naturals, Now Foods, and Thorne are widely stocked at GNC and iHerb, and deliver standardised EPA/DHA doses, so the choice is mostly about dose per capsule, freshness, and price.
+- **Where to buy in Singapore.** You will find decent options at **Watsons**, **Guardian**, and **GNC** outlets islandwide, or order online via **iHerb**, **Shopee**, or **Lazada** for a wider range. Expect to pay roughly **SGD40–80** for a 60–120 softgel bottle of a reputable brand (approximate; check current listing).
 - **Form is a minor consideration.** Triglyceride forms may absorb slightly better than the cheaper ethyl-ester form, but the difference is modest next to simply taking an adequate dose consistently.
 - **Algae oil for vegetarians and vegans.** It supplies EPA and DHA directly and raises blood omega-3 comparably to fish oil in short human studies ([NIH ODS, consumer](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/)). It costs more per gram, but it is the obvious plant-based choice and is available on iHerb and Shopee.
 
@@ -78,7 +78,7 @@ A few buying notes for Singapore shoppers:
 
 For most healthy people, the better move is not a supplement at all. The standard guidance is to eat at least two portions of fish a week, including one of oily fish such as salmon, sardines, mackerel, or trout. Whole fish delivers EPA and DHA alongside protein, iodine, and selenium, and the human evidence linking omega-3 to heart benefit has always been strongest for fish in the diet rather than capsules.
 
-Singapore is well placed here -- oily fish is affordable and widely available at wet markets, hawker centres, and supermarkets year-round. Ikan kembung (Indian mackerel), sardines, and salmon make for easy, budget-friendly targets that easily hit the two-portions-a-week mark.
+Singapore is well placed here, since oily fish is affordable and widely available at wet markets, hawker centres, and supermarkets year-round. Ikan kembung (Indian mackerel), sardines, and salmon make for easy, budget-friendly targets that easily hit the two-portions-a-week mark.
 
 A supplement makes sense if you genuinely do not eat fish, follow a vegetarian or vegan diet (algae oil), or have been advised to lower triglycerides. If you already eat oily fish a couple of times a week, an extra capsule is unlikely to add much.
 
@@ -94,7 +94,7 @@ See a doctor or pharmacist before starting if you take blood thinners, have a he
 
 Omega-3 is a reasonable, low-risk supplement for people with elevated triglycerides, people who rarely eat fish, and vegetarians or vegans who choose algae oil. For healthy people who already eat oily fish and are hoping to slow ageing, it is closer to optional, and the money may be better spent on the basics that actually move longevity: training, sleep, and diet quality.
 
-To put omega-3 in the wider context of supplements that are worth it and those that are not, see our guide to the [best longevity supplements](/sg/articles/best-longevity-supplements/) and the broader question of whether [longevity supplements work at all](/sg/articles/do-longevity-supplements-work/). For the compound with arguably the strongest human evidence of any in this category, read [creatine and longevity](/sg/articles/creatine-and-longevity/); for the one most people are genuinely low in, [vitamin D and longevity](/sg/articles/vitamin-d-and-longevity/) -- especially relevant in Singapore where year-round sun exposure is high yet indoor lifestyles mean deficiency is still common. And for the uncomfortable truth underneath all of it, [habits beat supplements for longevity](/sg/articles/habits-beat-supplements-for-longevity/).
+To put omega-3 in the wider context of supplements that are worth it and those that are not, see our guide to the [best longevity supplements](/sg/articles/best-longevity-supplements/) and the broader question of whether [longevity supplements work at all](/sg/articles/do-longevity-supplements-work/). For the compound with arguably the strongest human evidence of any in this category, read [creatine and longevity](/sg/articles/creatine-and-longevity/); for the one most people are genuinely low in, [vitamin D and longevity](/sg/articles/vitamin-d-and-longevity/), especially relevant in Singapore where year-round sun exposure is high yet indoor lifestyles mean deficiency is still common. And for the uncomfortable truth underneath all of it, [habits beat supplements for longevity](/sg/articles/habits-beat-supplements-for-longevity/).
 
 ## Sources
 

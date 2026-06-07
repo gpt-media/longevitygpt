@@ -119,11 +119,11 @@ NMN is widely available but you need to choose carefully given the quality varia
 
 **Health stores:** GNC Malaysia stocks NMN and related NAD+ precursor products. BIG Pharmacy and Caring Pharmacy carry some longevity supplement ranges, though NMN availability varies by outlet. Watsons and Guardian focus more on mainstream supplements and may carry limited options.
 
-**Online (local):** Shopee and Lazada have the widest selection and lowest prices, roughly RM90--280 per month's supply for mainstream brands depending on dose, but third-party testing documentation is inconsistently provided. Filter for sellers with strong ratings and ask for a certificate of analysis before buying.
+**Online (local):** Shopee and Lazada have the widest selection and lowest prices, roughly RM90–280 per month's supply for mainstream brands depending on dose, but third-party testing documentation is inconsistently provided. Filter for sellers with strong ratings and ask for a certificate of analysis before buying.
 
-**Import option:** iHerb ships to Malaysia and carries established international brands (Tru Niagen, Elysium, Life Extension) with transparent testing records. Prices after shipping typically run RM150--350 per month (approximate, check current listing). Customs clearance for personal-use quantities is generally straightforward, though delivery takes 7--14 days.
+**Import option:** iHerb ships to Malaysia and carries established international brands (Tru Niagen, Elysium, Life Extension) with transparent testing records. Prices after shipping typically run RM150–350 per month (approximate, check current listing). Customs clearance for personal-use quantities is generally straightforward, though delivery takes 7–14 days.
 
-**Storage note:** Malaysia's heat and humidity degrade supplements faster than temperate climates. Keep NMN capsules in a cool, dry place away from direct sunlight -- a kitchen cabinet next to the stove is not ideal. A sealed container in an air-conditioned room or a dry, cool cupboard is fine for most capsule forms.
+**Storage note:** Malaysia's heat and humidity degrade supplements faster than temperate climates. Keep NMN capsules in a cool, dry place away from direct sunlight, since a kitchen cabinet next to the stove is not ideal. A sealed container in an air-conditioned room or a dry, cool cupboard is fine for most capsule forms.
 
 ## Who it suits, and who should skip it
 

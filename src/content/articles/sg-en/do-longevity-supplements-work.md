@@ -52,7 +52,7 @@ Strongest case in the category. Creatine is one of the most studied supplements 
 
 **Evidence grade: strong human trials for strength and function; moderate for memory.** It is not proven to extend lifespan, but maintaining muscle and strength into older age is one of the better-evidenced ways to stay independent and reduce frailty.
 
-Dose is simple: creatine monohydrate, 3--5 g per day, every day. No loading phase is needed; that just gets you to saturation a few days sooner. Skip the expensive "advanced" forms. Monohydrate is the form the research used and Creapure is a well-known monohydrate source. In Singapore, creatine monohydrate is widely available at GNC outlets islandwide (including VivoCity and Plaza Singapura) and on iHerb, and Shopee or Lazada for competitive pricing; expect to pay SGD30--60 for a 300--500 g tub depending on brand (approximate, check current listing). We go deeper in [creatine and longevity](/sg/articles/creatine-and-longevity/).
+Dose is simple: creatine monohydrate, 3–5 g per day, every day. No loading phase is needed; that just gets you to saturation a few days sooner. Skip the expensive "advanced" forms. Monohydrate is the form the research used and Creapure is a well-known monohydrate source. In Singapore, creatine monohydrate is widely available at GNC outlets islandwide (including VivoCity and Plaza Singapura) and on iHerb, and Shopee or Lazada for competitive pricing; expect to pay SGD30–60 for a 300–500 g tub depending on brand (approximate, check current listing). We go deeper in [creatine and longevity](/sg/articles/creatine-and-longevity/).
 
 ### Omega-3 (EPA and DHA)
 
@@ -60,7 +60,7 @@ The honest picture is more mixed than the supplement aisle suggests. The cleares
 
 **Evidence grade: strong for lowering triglycerides; mixed and modest at best for cardiovascular events and mortality.** It is most worth considering if you eat little oily fish or have high triglycerides.
 
-Buy on EPA and DHA content, not total fish-oil milligrams. A label can say "1000 mg fish oil" while delivering only a few hundred milligrams of actual EPA plus DHA. Nordic Naturals is occasionally stocked at Guardian; reliably available on iHerb Singapore. Shopee and Lazada carry a broad range including local pharmacy house brands from Watsons and Guardian; typical price is SGD25--55 for a month's supply depending on concentration (approximate, check current listing). Full detail in [omega-3 and longevity](/sg/articles/omega-3-and-longevity/).
+Buy on EPA and DHA content, not total fish-oil milligrams. A label can say "1000 mg fish oil" while delivering only a few hundred milligrams of actual EPA plus DHA. Nordic Naturals is occasionally stocked at Guardian; reliably available on iHerb Singapore. Shopee and Lazada carry a broad range including local pharmacy house brands from Watsons and Guardian; typical price is SGD25–55 for a month's supply depending on concentration (approximate, check current listing). Full detail in [omega-3 and longevity](/sg/articles/omega-3-and-longevity/).
 
 ### Vitamin D (only if you are deficient)
 
@@ -68,13 +68,13 @@ This is a correction story, not a longevity story. Trials in generally healthy, 
 
 Singapore's year-round equatorial sun means many people assume they cannot be low in vitamin D, but office hours, indoor lifestyles, sunscreen use, and covered walkways mean deficiency is more common than expected, and darker skin tones require longer sun exposure to synthesise equivalent amounts. Older adults are at particular risk.
 
-**Evidence grade: strong for correcting deficiency; weak for benefit if you are already replete.** The sensible move is to get a blood test (available at polyclinics and GP clinics), then supplement D3 if you are low, rather than taking high doses blind. Plain D3 is available at Watsons, Guardian, and GNC islandwide, and on iHerb; around SGD15--35 for a standard bottle (approximate, check current listing). See [vitamin D and longevity](/sg/articles/vitamin-d-and-longevity/).
+**Evidence grade: strong for correcting deficiency; weak for benefit if you are already replete.** The sensible move is to get a blood test (available at polyclinics and GP clinics), then supplement D3 if you are low, rather than taking high doses blind. Plain D3 is available at Watsons, Guardian, and GNC islandwide, and on iHerb; around SGD15–35 for a standard bottle (approximate, check current listing). See [vitamin D and longevity](/sg/articles/vitamin-d-and-longevity/).
 
 ### Magnesium (mainly if intake or levels are low)
 
 Magnesium is essential for hundreds of bodily processes, and older adults and people on certain medications (some blood-pressure drugs, proton-pump inhibitors) are more prone to running low. Correcting a genuine shortfall can help symptoms like cramps, poor sleep, and fatigue. As a lifespan extender in well-nourished people, the evidence is not there.
 
-**Evidence grade: strong for correcting low intake or deficiency; limited as a general longevity supplement.** Form matters for absorption and comfort: glycinate and citrate are well absorbed and gentler, while oxide is cheap but poorly absorbed and more likely to cause loose stools. Magnesium glycinate and citrate are available on iHerb, Shopee, and Lazada; Watsons and Guardian carry oxide-based options most prominently, so check the label; expect SGD20--45 depending on form and quantity (approximate, check current listing). More in [magnesium and aging](/sg/articles/magnesium-and-aging/).
+**Evidence grade: strong for correcting low intake or deficiency; limited as a general longevity supplement.** Form matters for absorption and comfort: glycinate and citrate are well absorbed and gentler, while oxide is cheap but poorly absorbed and more likely to cause loose stools. Magnesium glycinate and citrate are available on iHerb, Shopee, and Lazada; Watsons and Guardian carry oxide-based options most prominently, so check the label; expect SGD20–45 depending on form and quantity (approximate, check current listing). More in [magnesium and aging](/sg/articles/magnesium-and-aging/).
 
 ## What is mostly marketing (for longevity)
 

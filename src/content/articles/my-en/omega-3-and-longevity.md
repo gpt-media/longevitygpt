@@ -73,7 +73,7 @@ Fish oil and algae oil supplements are widely available in Malaysia. You can fin
 
 Shopee and Lazada both have broad selections including international brands; check seller ratings, expiry dates, and the EPA/DHA breakdown before buying. iHerb ships directly to Malaysia and is a reliable import option for brands and formulations not commonly stocked locally: brands such as Nordic Naturals, Now Foods, and Thorne are examples of well-regarded options available through iHerb, with reasonable shipping on larger orders.
 
-Expect to pay approximately RM40--80 for a mid-range fish oil supplement (90 to 120 softgels at a meaningful EPA/DHA dose). Algae oil tends to cost more per gram. Prices vary; check current listings as they shift with promotions.
+Expect to pay approximately RM40–80 for a mid-range fish oil supplement (90 to 120 softgels at a meaningful EPA/DHA dose). Algae oil tends to cost more per gram. Prices vary; check current listings as they shift with promotions.
 
 **A practical storage note:** Malaysia's hot and humid climate accelerates fish oil oxidation. A product that smells or tastes strongly "off" may have gone rancid. Keep your capsules in a cool, dry cupboard, not on the kitchen counter, in a car, or anywhere exposed to direct heat or sun. Some people refrigerate fish oil; this is perfectly fine and extends freshness.
 

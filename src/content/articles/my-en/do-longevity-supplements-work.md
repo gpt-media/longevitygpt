@@ -52,7 +52,7 @@ Strongest case in the category. Creatine is one of the most studied supplements 
 
 **Evidence grade: strong human trials for strength and function; moderate for memory.** It is not proven to extend lifespan, but maintaining muscle and strength into older age is one of the better-evidenced ways to stay independent and reduce frailty.
 
-Dose is simple: creatine monohydrate, 3--5 g per day, every day. No loading phase is needed; that just gets you to saturation a few days sooner. Skip the expensive "advanced" forms. Monohydrate is the form the research used. In Malaysia, creatine monohydrate is widely available at GNC, Watsons, and online via Shopee and Lazada, typically in the RM60--130 range for a month's supply (budget options from RM40 on Shopee and Lazada; approximate, check current listing). We go deeper in [creatine and longevity](/articles/creatine-and-longevity/).
+Dose is simple: creatine monohydrate, 3–5 g per day, every day. No loading phase is needed; that just gets you to saturation a few days sooner. Skip the expensive "advanced" forms. Monohydrate is the form the research used. In Malaysia, creatine monohydrate is widely available at GNC, Watsons, and online via Shopee and Lazada, typically in the RM60–130 range for a month's supply (budget options from RM40 on Shopee and Lazada; approximate, check current listing). We go deeper in [creatine and longevity](/articles/creatine-and-longevity/).
 
 ### Omega-3 (EPA and DHA)
 
@@ -60,7 +60,7 @@ The honest picture is more mixed than the supplement aisle suggests. The cleares
 
 **Evidence grade: strong for lowering triglycerides; mixed and modest at best for cardiovascular events and mortality.** It is most worth considering if you eat little oily fish or have high triglycerides.
 
-Buy on EPA and DHA content, not total fish-oil milligrams. A label can say "1000 mg fish oil" while delivering only a few hundred milligrams of actual EPA plus DHA. In Malaysia, fish oil capsules are stocked at Watsons, Guardian, Caring Pharmacy, BIG Pharmacy, and GNC, with imported brands also available on iHerb, Shopee, and Lazada. Expect to pay roughly RM40--90 per month depending on the brand and EPA/DHA concentration (approximate, check current listing). Malaysia's heat and humidity accelerate oxidation. Keep fish oil in a cool, dry place away from direct sunlight, or refrigerate after opening. Full detail in [omega-3 and longevity](/my/articles/omega-3-and-longevity/).
+Buy on EPA and DHA content, not total fish-oil milligrams. A label can say "1000 mg fish oil" while delivering only a few hundred milligrams of actual EPA plus DHA. In Malaysia, fish oil capsules are stocked at Watsons, Guardian, Caring Pharmacy, BIG Pharmacy, and GNC, with imported brands also available on iHerb, Shopee, and Lazada. Expect to pay roughly RM40–90 per month depending on the brand and EPA/DHA concentration (approximate, check current listing). Malaysia's heat and humidity accelerate oxidation. Keep fish oil in a cool, dry place away from direct sunlight, or refrigerate after opening. Full detail in [omega-3 and longevity](/my/articles/omega-3-and-longevity/).
 
 ### Vitamin D (only if you are deficient)
 
@@ -68,13 +68,13 @@ This is a correction story, not a longevity story. Trials in generally healthy, 
 
 In Malaysia, where sun exposure is high year-round, it might seem like deficiency is rare. Indoor-heavy lifestyles, sunscreen use, and darker skin tones that require longer exposure to synthesise the same vitamin D can mean many Malaysians still run low. A blood test is the only way to know.
 
-**Evidence grade: strong for correcting deficiency; weak for benefit if you are already replete.** The sensible move is to test, then supplement D3 if you are low, rather than taking high doses blind. Plain D3 supplements are available at Watsons, Guardian, Caring Pharmacy, and BIG Pharmacy, typically RM20--50 for a few months' supply (approximate, check current listing). See [vitamin D and longevity](/articles/vitamin-d-and-longevity/).
+**Evidence grade: strong for correcting deficiency; weak for benefit if you are already replete.** The sensible move is to test, then supplement D3 if you are low, rather than taking high doses blind. Plain D3 supplements are available at Watsons, Guardian, Caring Pharmacy, and BIG Pharmacy, typically RM20–50 for a few months' supply (approximate, check current listing). See [vitamin D and longevity](/articles/vitamin-d-and-longevity/).
 
 ### Magnesium (mainly if intake or levels are low)
 
 Magnesium is essential for hundreds of bodily processes, and older adults and people on certain medications (some blood-pressure drugs, proton-pump inhibitors) are more prone to running low. Correcting a genuine shortfall can help symptoms like cramps, poor sleep, and fatigue. As a lifespan extender in well-nourished people, the evidence is not there.
 
-**Evidence grade: strong for correcting low intake or deficiency; limited as a general longevity supplement.** Form matters for absorption and comfort: glycinate and citrate are well absorbed and gentler, while oxide is cheap but poorly absorbed and more likely to cause loose stools. Magnesium supplements are available at Watsons, Guardian, Caring Pharmacy, and BIG Pharmacy; imported forms like glycinate are easiest to find on iHerb, Shopee, or Lazada at roughly RM35--80 per month (approximate, check current listing). More in [magnesium and aging](/my/articles/magnesium-and-aging/).
+**Evidence grade: strong for correcting low intake or deficiency; limited as a general longevity supplement.** Form matters for absorption and comfort: glycinate and citrate are well absorbed and gentler, while oxide is cheap but poorly absorbed and more likely to cause loose stools. Magnesium supplements are available at Watsons, Guardian, Caring Pharmacy, and BIG Pharmacy; imported forms like glycinate are easiest to find on iHerb, Shopee, or Lazada at roughly RM35–80 per month (approximate, check current listing). More in [magnesium and aging](/my/articles/magnesium-and-aging/).
 
 ## What is mostly marketing (for longevity)
 
@@ -82,7 +82,7 @@ Magnesium is essential for hundreds of bodily processes, and older adults and pe
 
 NAD+ is a coenzyme central to energy metabolism, and its levels fall with age, which is the entire pitch. In humans, short trials show NMN reliably raises blood NAD+ and looks safe over the periods studied, with some signals for insulin sensitivity or physical function in specific groups. But raising NAD+ is a biomarker change, not a demonstrated slowing of aging. The lifespan and healthspan headlines come from mice, and long-term human safety data is limited.
 
-**Evidence grade: preliminary in humans (biomarker moves; outcomes unproven); lifespan data is animal-only.** Genuinely interesting, genuinely unproven for the thing it is sold for. Treat it as an experiment you are paying to run on yourself. NMN is available via iHerb, Shopee, and Lazada as an import; expect to pay RM150--350 per month depending on dose and brand (approximate, check current listing). We track it honestly in [does NMN work](/my/articles/does-nmn-work/).
+**Evidence grade: preliminary in humans (biomarker moves; outcomes unproven); lifespan data is animal-only.** Genuinely interesting, genuinely unproven for the thing it is sold for. Treat it as an experiment you are paying to run on yourself. NMN is available via iHerb, Shopee, and Lazada as an import; expect to pay RM150–350 per month depending on dose and brand (approximate, check current listing). We track it honestly in [does NMN work](/my/articles/does-nmn-work/).
 
 ### Resveratrol
 
