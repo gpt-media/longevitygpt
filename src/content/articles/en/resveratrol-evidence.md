@@ -3,6 +3,7 @@ title: "Resveratrol: Why the Human Evidence Disappointed"
 description: "Resveratrol extended lifespan in some mouse studies and became the face of the red-wine longevity story. In humans, that promise did not hold up. The evidence in people is mixed at best for a few metabolic markers and absent for living longer, and poor absorption is a big part of why."
 publishDate: 2026-05-02
 category: "Supplements"
+entities: ["resveratrol", "NAD+", "longevity", "anti-aging supplements"]
 faqs:
   - q: "Does resveratrol actually help you live longer?"
     a: "There is no human evidence that resveratrol extends lifespan, and the headline mouse findings did not replicate in the most rigorous animal testing. NIH's LiverTox review states plainly that there is no conclusive evidence resveratrol has beneficial effects in humans. For longevity specifically, this one is not worth your money."

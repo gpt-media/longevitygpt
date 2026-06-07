@@ -3,6 +3,7 @@ title: "Does NMN Work? NAD+ Boosters and the Evidence"
 description: "NMN reliably raises NAD+ in human blood, and short trials show it is well tolerated. But no human study proves it extends lifespan or healthspan, the long-term safety data are thin, and it is expensive. The honest verdict: preliminary, and the hype far outruns the evidence."
 publishDate: 2026-05-19
 category: "Supplements"
+entities: ["NMN", "NAD+", "longevity", "anti-aging supplements"]
 faqs:
   - q: "Does NMN actually raise NAD+ levels in people?"
     a: "Yes. Several randomized human trials show that oral NMN, at doses from about 250 mg up to 900 mg a day, raises NAD+ in whole blood, often roughly doubling it over a couple of weeks. That part is reasonably well established. The open question is whether higher blood NAD+ translates into any meaningful health benefit, which is far less clear."
