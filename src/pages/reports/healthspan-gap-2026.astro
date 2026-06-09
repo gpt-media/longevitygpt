@@ -10,6 +10,7 @@ import { DEFAULT_EDITION } from '../../lib/editions';
 
 const PATH = '/reports/healthspan-gap-2026/';
 const CSV = '/reports/healthspan-gap-by-country.csv';
+const CSV_BY_SEX = '/reports/healthspan-gap-by-sex.csv';
 const OG_IMAGE = '/reports/healthspan-gap-2026-og.png';
 
 const title = 'The Healthspan Gap Index 2026: The Years We Live, But Not Well';
@@ -19,6 +20,7 @@ const description =
 const abs = (p: string) => new URL(p, Astro.site).href;
 const canonical = abs(PATH);
 const csvUrl = abs(CSV);
+const csvBySexUrl = abs(CSV_BY_SEX);
 
 // Dataset + Article structured data for the report. Mirrors the verified source's JSON-LD;
 // url/@id and distribution.contentUrl resolve to the real published paths above.
@@ -29,7 +31,7 @@ const jsonLd = [
     '@id': `${canonical}#dataset`,
     name: 'The Healthspan Gap Index 2026',
     description:
-      'Original TheLongevityGPT computation of the Healthspan Gap (Life Expectancy minus Healthy Life Expectancy) for 185 countries, from WHO Global Health Observatory data, 2000/2019/2021. Global gap 9.7 years (2019); United States widest at 12.7 years.',
+      "Original TheLongevityGPT computation of the Healthspan Gap (Life Expectancy minus Healthy Life Expectancy) for 185 countries, from WHO Global Health Observatory data, 2000/2019/2021, with a by-sex split for 2019. Global gap 9.7 years (2019); United States widest at 12.7 years; women's gap wider than men's in all 185 countries.",
     url: canonical,
     creator: { '@type': 'Organization', name: 'TheLongevityGPT', url: 'https://thelongevitygpt.com' },
     datePublished: '2026-06-10',
@@ -44,9 +46,11 @@ const jsonLd = [
       { '@type': 'PropertyValue', name: 'Global Healthspan Gap (2019)', value: '9.7', unitText: 'years' },
       { '@type': 'PropertyValue', name: 'United States Healthspan Gap (2019), widest of 185', value: '12.7', unitText: 'years' },
       { '@type': 'PropertyValue', name: 'Narrowest gap, Somalia (2019)', value: '6.6', unitText: 'years' },
+      { '@type': 'PropertyValue', name: 'Female minus male gap, global (2019)', value: '2.8', unitText: 'years' },
     ],
     distribution: [
-      { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: csvUrl },
+      { '@type': 'DataDownload', encodingFormat: 'text/csv', name: 'Healthspan Gap by country (2000/2019/2021)', contentUrl: csvUrl },
+      { '@type': 'DataDownload', encodingFormat: 'text/csv', name: 'Healthspan Gap by sex, 185 countries (2019)', contentUrl: csvBySexUrl },
     ],
     isBasedOn: [
       {
@@ -116,6 +120,8 @@ const jsonLd = [
           <li><strong>The narrowest gaps are not the healthiest places.</strong> Somalia (6.6 years), Lesotho (6.7), and the Central African Republic (7.0) have the smallest gaps, because where life expectancy is low, people do not live long enough to accumulate years of late-life illness. A small gap here signals short lives, not healthy ones.</li>
           <li><strong>COVID temporarily narrowed the US gap, for the worst reason.</strong> In the latest data (2021), the US gap fell to 12.5 years and Australia overtook it, not because Americans grew healthier but because US life expectancy collapsed from 78.7 to 76.4. When death comes sooner, the unwell years at the end are simply cut short.</li>
           <li><strong>Over the long run the gap is widening.</strong> The peer-reviewed record shows the global gap grew from 8.5 years in 2000 to 9.6 in 2019. Medicine is extending survival faster than it extends health.</li>
+          <li id="sex-universal"><strong>Women's gap is wider in every country on Earth.</strong> In all 185 countries, women spend more years in poor health at the end of life than men. Globally, women's gap is 11.1 years against men's 8.3, a 2.8-year difference (our analysis of WHO data, 2019; consistent with the 2.4-year difference reported by Garmany and Terzic, 2024).</li>
+          <li id="sex-us"><strong>In the US, women face a 14.1-year gap, men 11.4.</strong> American women outlive American men, but spend nearly 3 more years of that life in poor health (our analysis of WHO data, 2019).</li>
         </ul>
 
         <h2>A decade lived unwell</h2>
@@ -162,13 +168,17 @@ const jsonLd = [
 
         <p>The most recent WHO data, for 2021, carries a warning about reading any single year in isolation. The US gap fell to 12.5 years, and Australia, with very low pandemic mortality that year, edged ahead at 12.5. This is not a US health improvement. US life expectancy fell from 78.7 years in 2019 to 76.4 in 2021 under COVID, and a gap narrows mechanically when lives are cut short before the unwell years accrue. The pre-pandemic 2019 figures are the cleaner picture of the structural gap, which is why we anchor the Index on them and flag 2021 as pandemic-distorted.</p>
 
+        <h2>The sex gap: women live longer, but more of it unwell</h2>
+
+        <p>Women outlive men in almost every country, but they do not spend those extra years in good health. We split the gap by sex for all 185 countries, and the result is one of the most consistent patterns in the data: <strong>in every single country, women's Healthspan Gap is wider than men's.</strong> Globally in 2019, women averaged 11.1 years in poor health at the end of life against men's 8.3, a difference of 2.8 years (consistent with the 2.4-year sex difference reported in the 2024 JAMA Network Open analysis). In the United States the split is 14.1 years for women against 11.4 for men. The widest sex gaps of all appear in Kuwait, Yemen, and Türkiye, where women's unwell years exceed men's by roughly four. This is the male-female health-survival paradox in two numbers: longer life for women, more of it carrying illness.</p>
+
         <h2>What it means</h2>
 
         <p>The Healthspan Gap reframes the longevity goal. The win is not only a longer life. It is compressing the unwell years at the end of it, what researchers call compression of morbidity. The data carries three lessons. The gap is widening over the long run, so living longer is not the same as aging better. The wealthiest health systems produce the widest gaps, so money and medicine extend survival faster than they preserve function. And the largest contributors to late-life morbidity, cardiometabolic and musculoskeletal decline, respond to the least glamorous interventions in longevity: strength and aerobic fitness, sleep, and metabolic health. That is where the gap is most likely to close.</p>
 
         <h2>The data</h2>
 
-        <p>The full 185-country dataset, with life expectancy, healthy life expectancy, and the computed gap for 2000, 2019, and 2021, is available as a downloadable CSV under a Creative Commons Attribution license: <a href={CSV}>healthspan-gap-by-country.csv</a>. Reuse it freely with attribution to TheLongevityGPT.</p>
+        <p>The full 185-country dataset, with life expectancy, healthy life expectancy, and the computed gap for 2000, 2019, and 2021, is available as a downloadable CSV under a Creative Commons Attribution license: <a href={CSV}>healthspan-gap-by-country.csv</a>. A companion dataset splitting the 2019 gap by sex for all 185 countries is also available: <a href={CSV_BY_SEX}>healthspan-gap-by-sex.csv</a>. Reuse both freely with attribution to TheLongevityGPT.</p>
 
         <h2>Methodology and sources</h2>
 

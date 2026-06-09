@@ -1,0 +1,186 @@
+country,iso3,year,male_gap_years,female_gap_years,female_minus_male_years
+Afghanistan,AFG,2019,8.17,9.71,1.54
+Albania,ALB,2019,8.69,10.44,1.75
+Algeria,DZA,2019,9.2,11.75,2.55
+Angola,AGO,2019,7.09,9.25,2.16
+Antigua and Barbuda,ATG,2019,8.89,10.77,1.87
+Argentina,ARG,2019,8.58,11.64,3.06
+Armenia,ARM,2019,7.26,10.83,3.57
+Australia,AUS,2019,11.04,13.73,2.69
+Austria,AUT,2019,9.71,12.68,2.96
+Azerbaijan,AZE,2019,7.81,10.45,2.65
+Bahamas,BHS,2019,7.7,10.15,2.45
+Bahrain,BHR,2019,9.09,12.15,3.06
+Bangladesh,BGD,2019,8.53,11.4,2.87
+Barbados,BRB,2019,8.57,10.85,2.28
+Belarus,BLR,2019,7.59,11.1,3.51
+Belgium,BEL,2019,9.89,13.1,3.21
+Belize,BLZ,2019,8.5,10.93,2.43
+Benin,BEN,2019,6.82,9.75,2.93
+Bhutan,BTN,2019,8.67,11.09,2.42
+Bolivia (Plurinational State of),BOL,2019,8.31,10.25,1.94
+Bosnia and Herzegovina,BIH,2019,8.97,11.22,2.24
+Botswana,BWA,2019,7.69,9.98,2.29
+Brazil,BRA,2019,9.26,12.65,3.39
+Brunei Darussalam,BRN,2019,8.91,10.34,1.43
+Bulgaria,BGR,2019,8.06,10.67,2.61
+Burkina Faso,BFA,2019,6.3,8.98,2.68
+Burundi,BDI,2019,7.27,8.94,1.67
+Cabo Verde,CPV,2019,7.41,11.17,3.75
+Cambodia,KHM,2019,7.1,9.48,2.38
+Cameroon,CMR,2019,6.51,9.09,2.58
+Canada,CAN,2019,10.47,12.98,2.52
+Central African Republic,CAF,2019,5.9,8.15,2.25
+Chad,TCD,2019,6.47,8.74,2.26
+Chile,CHL,2019,10.02,13.29,3.27
+China,CHN,2019,7.58,10.28,2.7
+Colombia,COL,2019,8.88,11.21,2.33
+Comoros,COM,2019,7.36,9.36,2.0
+Congo,COG,2019,7.13,9.02,1.89
+Costa Rica,CRI,2019,9.84,12.36,2.53
+Cote d'Ivoire,CIV,2019,6.77,9.55,2.78
+Croatia,HRV,2019,8.92,11.52,2.6
+Cuba,CUB,2019,8.55,11.23,2.68
+Cyprus,CYP,2019,9.52,12.61,3.09
+Czechia,CZE,2019,9.38,11.92,2.54
+Democratic People's Republic of Korea,PRK,2019,6.46,9.16,2.7
+Democratic Republic of the Congo,COD,2019,7.21,9.49,2.28
+Denmark,DNK,2019,9.63,12.31,2.68
+Djibouti,DJI,2019,6.73,8.92,2.19
+Dominican Republic,DOM,2019,8.46,11.17,2.71
+Ecuador,ECU,2019,8.9,11.4,2.5
+Egypt,EGY,2019,7.32,10.91,3.59
+El Salvador,SLV,2019,8.59,11.12,2.53
+Equatorial Guinea,GNQ,2019,7.12,9.54,2.42
+Eritrea,ERI,2019,7.25,8.94,1.69
+Estonia,EST,2019,8.89,12.02,3.13
+Eswatini,SWZ,2019,5.83,8.49,2.67
+Ethiopia,ETH,2019,7.97,9.87,1.9
+Fiji,FJI,2019,7.14,9.31,2.17
+Finland,FIN,2019,10.06,12.86,2.8
+France,FRA,2019,10.0,13.56,3.56
+Gabon,GAB,2019,7.23,10.18,2.96
+Gambia,GMB,2019,6.6,10.04,3.44
+Georgia,GEO,2019,7.49,10.46,2.97
+Germany,DEU,2019,9.75,13.33,3.57
+Ghana,GHA,2019,6.63,9.47,2.84
+Greece,GRC,2019,9.65,12.54,2.89
+Grenada,GRD,2019,8.2,10.65,2.45
+Guatemala,GTM,2019,9.01,11.32,2.31
+Guinea,GIN,2019,6.43,8.69,2.26
+Guinea-Bissau,GNB,2019,5.81,8.48,2.67
+Guyana,GUY,2019,8.33,10.88,2.55
+Haiti,HTI,2019,7.62,9.7,2.08
+Honduras,HND,2019,8.14,10.05,1.91
+Hungary,HUN,2019,8.31,11.13,2.82
+Iceland,ISL,2019,9.8,12.44,2.64
+India,IND,2019,8.48,11.33,2.85
+Indonesia,IDN,2019,7.07,9.17,2.1
+Iran (Islamic Republic of),IRN,2019,9.76,12.8,3.04
+Iraq,IRQ,2019,9.09,11.85,2.76
+Ireland,IRL,2019,10.02,12.89,2.87
+Israel,ISR,2019,9.57,12.53,2.97
+Italy,ITA,2019,10.08,12.99,2.91
+Jamaica,JAM,2019,7.37,10.06,2.69
+Japan,JPN,2019,9.62,12.14,2.52
+Jordan,JOR,2019,10.14,13.02,2.88
+Kazakhstan,KAZ,2019,7.59,10.75,3.16
+Kenya,KEN,2019,6.95,9.59,2.64
+Kiribati,KIR,2019,6.18,8.73,2.55
+Kuwait,KWT,2019,10.54,14.65,4.11
+Kyrgyzstan,KGZ,2019,7.24,10.21,2.97
+Lao People's Democratic Republic,LAO,2019,6.71,8.88,2.17
+Latvia,LVA,2019,8.0,11.23,3.23
+Lebanon,LBN,2019,10.2,13.44,3.24
+Lesotho,LSO,2019,5.57,8.03,2.46
+Liberia,LBR,2019,8.15,10.73,2.58
+Libya,LBY,2019,8.74,11.72,2.98
+Lithuania,LTU,2019,8.35,11.65,3.3
+Luxembourg,LUX,2019,9.85,12.85,3.0
+Madagascar,MDG,2019,6.73,8.59,1.85
+Malawi,MWI,2019,6.23,9.13,2.9
+Malaysia,MYS,2019,8.03,10.52,2.5
+Maldives,MDV,2019,7.49,9.96,2.47
+Mali,MLI,2019,7.05,9.01,1.96
+Malta,MLT,2019,9.51,12.55,3.04
+Mauritania,MRT,2019,7.51,9.56,2.05
+Mauritius,MUS,2019,8.37,11.31,2.94
+Mexico,MEX,2019,8.88,11.87,2.99
+Micronesia (Federated States of),FSM,2019,6.59,9.07,2.48
+Mongolia,MNG,2019,7.38,10.19,2.81
+Montenegro,MNE,2019,8.27,10.88,2.61
+Morocco,MAR,2019,8.72,11.6,2.88
+Mozambique,MOZ,2019,6.11,9.61,3.49
+Myanmar,MMR,2019,6.86,9.48,2.61
+Namibia,NAM,2019,6.65,9.24,2.58
+Nepal,NPL,2019,8.55,11.03,2.48
+Netherlands (Kingdom of the),NLD,2019,9.79,12.69,2.9
+New Zealand,NZL,2019,10.66,13.45,2.78
+Nicaragua,NIC,2019,10.04,12.27,2.23
+Niger,NER,2019,6.33,8.53,2.2
+Nigeria,NGA,2019,7.0,9.56,2.56
+North Macedonia,MKD,2019,9.0,10.27,1.27
+Norway,NOR,2019,10.08,12.88,2.8
+Oman,OMN,2019,8.51,12.09,3.58
+Pakistan,PAK,2019,8.18,10.28,2.1
+Panama,PAN,2019,9.31,12.06,2.75
+Papua New Guinea,PNG,2019,7.48,9.0,1.52
+Paraguay,PRY,2019,8.72,11.79,3.07
+Peru,PER,2019,8.72,11.02,2.3
+Philippines,PHL,2019,6.76,9.75,2.98
+Poland,POL,2019,8.86,11.48,2.62
+Portugal,PRT,2019,9.57,12.95,3.38
+Puerto Rico,PRI,2019,9.66,12.42,2.76
+Qatar,QAT,2019,10.12,13.3,3.18
+Republic of Korea,KOR,2019,9.93,12.38,2.44
+Republic of Moldova,MDA,2019,7.31,10.42,3.11
+Romania,ROU,2019,8.01,10.6,2.59
+Russian Federation,RUS,2019,7.76,11.16,3.41
+Rwanda,RWA,2019,7.5,9.69,2.19
+Saint Lucia,LCA,2019,8.82,12.09,3.27
+Saint Vincent and the Grenadines,VCT,2019,8.55,10.83,2.29
+Samoa,WSM,2019,7.66,9.54,1.88
+Sao Tome and Principe,STP,2019,7.36,10.09,2.74
+Saudi Arabia,SAU,2019,10.08,12.12,2.04
+Senegal,SEN,2019,7.46,10.18,2.72
+Serbia,SRB,2019,8.18,10.53,2.35
+Seychelles,SYC,2019,7.55,10.28,2.73
+Sierra Leone,SLE,2019,6.81,8.72,1.9
+Singapore,SGP,2019,9.15,11.09,1.94
+Slovakia,SVK,2019,8.76,11.5,2.74
+Slovenia,SVN,2019,9.79,12.35,2.56
+Solomon Islands,SLB,2019,6.34,8.95,2.6
+Somalia,SOM,2019,5.59,7.6,2.02
+South Africa,ZAF,2019,7.84,11.12,3.28
+South Sudan,SSD,2019,6.89,9.15,2.27
+Spain,ESP,2019,9.64,13.24,3.6
+Sri Lanka,LKA,2019,8.97,11.64,2.67
+Sudan,SDN,2019,8.09,10.57,2.48
+Suriname,SUR,2019,8.51,11.34,2.83
+Sweden,SWE,2019,9.84,12.78,2.94
+Switzerland,CHE,2019,10.43,13.45,3.02
+Syrian Arab Republic,SYR,2019,7.92,11.28,3.37
+Tajikistan,TJK,2019,7.86,9.95,2.09
+Thailand,THA,2019,8.45,11.14,2.69
+Timor-Leste,TLS,2019,8.06,9.01,0.95
+Togo,TGO,2019,6.38,9.43,3.05
+Tonga,TON,2019,7.41,10.39,2.99
+Trinidad and Tobago,TTO,2019,8.65,11.43,2.78
+Tunisia,TUN,2019,9.06,12.61,3.55
+Turkmenistan,TKM,2019,6.66,9.34,2.68
+Türkiye,TUR,2019,8.46,12.33,3.87
+Uganda,UGA,2019,7.24,9.81,2.57
+Ukraine,UKR,2019,7.89,11.11,3.22
+United Arab Emirates,ARE,2019,10.73,13.61,2.87
+United Kingdom of Great Britain and Northern Ireland,GBR,2019,10.12,12.84,2.72
+United Republic of Tanzania,TZA,2019,7.23,9.69,2.46
+United States of America,USA,2019,11.41,14.06,2.65
+Uruguay,URY,2019,8.45,11.91,3.45
+Uzbekistan,UZB,2019,7.3,9.96,2.66
+Vanuatu,VUT,2019,6.5,9.22,2.72
+Venezuela (Bolivarian Republic of),VEN,2019,7.81,10.91,3.1
+Viet Nam,VNM,2019,6.83,9.84,3.01
+Yemen,YEM,2019,7.55,11.66,4.1
+Zambia,ZMB,2019,6.76,8.97,2.21
+Zimbabwe,ZWE,2019,6.0,8.09,2.09
+"occupied Palestinian territory, including east Jerusalem",PSE,2019,9.29,11.95,2.65
