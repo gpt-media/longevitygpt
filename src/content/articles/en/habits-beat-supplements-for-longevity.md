@@ -20,7 +20,7 @@ faqs:
 
 Here is the part the supplement aisle will never put on a label: the interventions with the strongest evidence for a longer, healthier life are mostly free. Sleeping enough, being aerobically fit, keeping your muscle and strength, not smoking, drinking little or no alcohol, and staying socially connected are each backed by large human studies. Their evidence does not just edge out the typical longevity supplement, it dwarfs it.
 
-That is the honest verdict, and it is not a motivational slogan. It is what the human data shows when you line the habits up against the pills. This article grades that evidence, lever by lever, then says plainly where supplements actually fit (small, supportive, after the basics are handled).
+That is the honest verdict, and it is not a motivational slogan. It is what the human data shows when you line the habits up against the pills. This article grades that evidence, lever by lever, then says plainly where supplements actually fit (small, supportive, after the basics are handled). And the reason these levers matter is the gap they close: our [Healthspan Gap Index 2026](/reports/healthspan-gap-2026/) finds the average person spends about 9.7 years in poor health at the end of life, and the wealthiest countries carry the widest gaps of all.
 
 ## The short answer
 

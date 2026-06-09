@@ -1,0 +1,195 @@
+---
+// Bespoke data-study report page. Published at /reports/healthspan-gap-2026/ via
+// pathOverride (the articles collection only produces /articles/<slug>/ URLs and can't
+// carry custom Dataset JSON-LD, so this report rides the BaseLayout directly — the same
+// pattern as /about/). Body prose, numbers and wording are the verified source report,
+// unaltered. JSON-LD (Dataset + Article) is passed through `jsonLd` so BaseLayout renders
+// it as <script type="application/ld+json"> in <head> — never a visible code block.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { DEFAULT_EDITION } from '../../lib/editions';
+
+const PATH = '/reports/healthspan-gap-2026/';
+const CSV = '/reports/healthspan-gap-by-country.csv';
+const OG_IMAGE = '/reports/healthspan-gap-2026-og.png';
+
+const title = 'The Healthspan Gap Index 2026: The Years We Live, But Not Well';
+const description =
+  "An original TheLongevityGPT analysis of WHO data for 185 countries. The Healthspan Gap is Life Expectancy minus Healthy Life Expectancy: the years lived in poor health at the end of life. The average person loses about 9.7 years; the United States has the widest gap in the world at 12.7. Full downloadable dataset.";
+
+const abs = (p: string) => new URL(p, Astro.site).href;
+const canonical = abs(PATH);
+const csvUrl = abs(CSV);
+
+// Dataset + Article structured data for the report. Mirrors the verified source's JSON-LD;
+// url/@id and distribution.contentUrl resolve to the real published paths above.
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    '@id': `${canonical}#dataset`,
+    name: 'The Healthspan Gap Index 2026',
+    description:
+      'Original TheLongevityGPT computation of the Healthspan Gap (Life Expectancy minus Healthy Life Expectancy) for 185 countries, from WHO Global Health Observatory data, 2000/2019/2021. Global gap 9.7 years (2019); United States widest at 12.7 years.',
+    url: canonical,
+    creator: { '@type': 'Organization', name: 'TheLongevityGPT', url: 'https://thelongevitygpt.com' },
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    temporalCoverage: '2000/2021',
+    spatialCoverage: 'Global (185 WHO member states)',
+    keywords: ['healthspan', 'lifespan', 'healthy life expectancy', 'HALE', 'life expectancy', 'compression of morbidity', 'longevity'],
+    measurementTechnique:
+      'Healthspan Gap = Life Expectancy at birth minus Healthy Life Expectancy (HALE) at birth, in years, computed from WHO GHO indicators WHOSIS_000001 and WHOSIS_000002.',
+    variableMeasured: [
+      { '@type': 'PropertyValue', name: 'Global Healthspan Gap (2019)', value: '9.7', unitText: 'years' },
+      { '@type': 'PropertyValue', name: 'United States Healthspan Gap (2019), widest of 185', value: '12.7', unitText: 'years' },
+      { '@type': 'PropertyValue', name: 'Narrowest gap, Somalia (2019)', value: '6.6', unitText: 'years' },
+    ],
+    distribution: [
+      { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: csvUrl },
+    ],
+    isBasedOn: [
+      {
+        '@type': 'Dataset',
+        name: 'WHO Global Health Observatory: Life expectancy and healthy life expectancy',
+        url: 'https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy',
+      },
+      {
+        '@type': 'ScholarlyArticle',
+        name: 'Global Healthspan-Lifespan Gaps Among 183 World Health Organization Member States',
+        url: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753',
+        identifier: '10.1001/jamanetworkopen.2024.50241',
+      },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${canonical}#article`,
+    headline: 'The Healthspan Gap Index 2026: The Years We Live, But Not Well',
+    description:
+      'The average person lives about 9.7 years in poor health at the end of life; the United States carries the widest gap of any country, 12.7 years.',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
+    author: { '@type': 'Organization', name: 'TheLongevityGPT', url: 'https://thelongevitygpt.com' },
+    publisher: { '@type': 'Organization', name: 'TheLongevityGPT', url: 'https://thelongevitygpt.com' },
+    mainEntityOfPage: canonical,
+    citation: [
+      'World Health Organization. Global Health Observatory: Life expectancy and healthy life expectancy at birth. Indicators WHOSIS_000001, WHOSIS_000002.',
+      'Garmany A, Terzic A. Global Healthspan-Lifespan Gaps Among 183 World Health Organization Member States. JAMA Netw Open. 2024. doi:10.1001/jamanetworkopen.2024.50241',
+    ],
+  },
+];
+---
+<BaseLayout
+  edition={DEFAULT_EDITION}
+  pathOverride={PATH}
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  ogType="article"
+  image={OG_IMAGE}
+>
+  <article class="article">
+    <div class="wrap">
+      <p class="kicker">Original data study</p>
+      <h1>The Healthspan Gap Index 2026</h1>
+
+      <div class="quick-answer">
+        <p class="qa-label">Key finding</p>
+        <p>The average person spends about 9.7 years in poor health at the end of life, and the United States carries the widest gap of any country on Earth, 12.7 years.</p>
+      </div>
+
+      <div class="article-body">
+        <p><strong>The average person spends about 9.7 years in poor health at the end of life, and the United States carries the widest gap of any country on Earth, 12.7 years.</strong></p>
+
+        <p>Lifespan is not the same as healthspan. You can add years to a life without adding health to those years, and the distance between the two has a name and a number. We call it the <strong>Healthspan Gap</strong>: the years a person lives in poor health before death, defined as <strong>Life Expectancy (LE) minus Healthy Life Expectancy (HALE)</strong>.</p>
+
+        <p>This is our own computation. We pulled life expectancy and healthy life expectancy for all 185 countries directly from the World Health Organization's Global Health Observatory, subtracted one from the other for every country, and ranked the result. The full dataset is downloadable below. Our 2019 figures closely reproduce the peer-reviewed analysis published in JAMA Network Open in 2024, which found the same global gap of 9.6 years, a validation that the method is sound.</p>
+
+        <h2>Key findings</h2>
+
+        <ul>
+          <li><strong>The global Healthspan Gap is 9.7 years (2019).</strong> The average person on Earth lives 9.7 years in poor health at the end of life (our analysis of WHO data; life expectancy 73.1, healthy life expectancy 63.5 at the global level).</li>
+          <li><strong>The United States has the widest gap in the world: 12.7 years.</strong> Out of 185 countries, the US ranks first, with a life expectancy of 78.7 years but a healthy life expectancy of only 66.0 (our analysis of WHO data, 2019).</li>
+          <li><strong>The widest gaps belong to the richest countries.</strong> After the US come Australia (12.4 years), New Zealand (12.1), Kuwait (12.0), and Switzerland (12.0). Long lives in wealthy health systems come with long tails of managed but unresolved illness.</li>
+          <li><strong>The narrowest gaps are not the healthiest places.</strong> Somalia (6.6 years), Lesotho (6.7), and the Central African Republic (7.0) have the smallest gaps, because where life expectancy is low, people do not live long enough to accumulate years of late-life illness. A small gap here signals short lives, not healthy ones.</li>
+          <li><strong>COVID temporarily narrowed the US gap, for the worst reason.</strong> In the latest data (2021), the US gap fell to 12.5 years and Australia overtook it, not because Americans grew healthier but because US life expectancy collapsed from 78.7 to 76.4. When death comes sooner, the unwell years at the end are simply cut short.</li>
+          <li><strong>Over the long run the gap is widening.</strong> The peer-reviewed record shows the global gap grew from 8.5 years in 2000 to 9.6 in 2019. Medicine is extending survival faster than it extends health.</li>
+        </ul>
+
+        <h2>A decade lived unwell</h2>
+
+        <p>The Healthspan Gap is a simple subtraction with a heavy meaning. Life expectancy measures how long people live. Healthy life expectancy, or HALE, measures how long they live in good health, discounting years spent with disease or disability. The difference is the number of years, on average, lived unwell at the end of life.</p>
+
+        <p>Computed across all 185 WHO member states for 2019, the last clean pre-pandemic year, the global figure is <strong>9.7 years</strong>. That is not an outlier estimate. A 2024 analysis in JAMA Network Open ran the same subtraction and reported a global mean of 9.6 years, so two independent computations land within a tenth of a year of each other. Close to a decade of compromised health is the shared human ending.</p>
+
+        <h2>By country: the widest and the narrowest</h2>
+
+        <p>The gap is universal but uneven, and the extremes have to be read carefully.</p>
+
+        <p><strong>Widest gaps, 2019 (years):</strong></p>
+
+        <table>
+          <thead>
+            <tr><th>Rank</th><th>Country</th><th>Life expectancy</th><th>Healthy life expectancy</th><th>Gap</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>United States</td><td>78.7</td><td>66.0</td><td><strong>12.7</strong></td></tr>
+            <tr><td>2</td><td>Australia</td><td>82.6</td><td>70.3</td><td>12.4</td></tr>
+            <tr><td>3</td><td>New Zealand</td><td>81.8</td><td>69.7</td><td>12.1</td></tr>
+            <tr><td>4</td><td>Kuwait</td><td>82.5</td><td>70.5</td><td>12.0</td></tr>
+            <tr><td>5</td><td>Switzerland</td><td>83.5</td><td>71.5</td><td>12.0</td></tr>
+          </tbody>
+        </table>
+
+        <p><strong>Narrowest gaps, 2019 (years):</strong></p>
+
+        <table>
+          <thead>
+            <tr><th>Country</th><th>Life expectancy</th><th>Healthy life expectancy</th><th>Gap</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Somalia</td><td>55.2</td><td>48.7</td><td>6.6</td></tr>
+            <tr><td>Lesotho</td><td>51.8</td><td>45.0</td><td>6.7</td></tr>
+            <tr><td>Central African Republic</td><td>52.9</td><td>46.0</td><td>7.0</td></tr>
+          </tbody>
+        </table>
+
+        <p>The ordering looks backwards until you read it properly. A narrow gap in a low-income country is a tragedy of short lives, not a triumph of healthy ones. The wide gaps cluster in wealthy nations where people survive long enough to live for years with chronic disease. The United States is the extreme case: a high-income life expectancy paired with the world's widest stretch of unwell years.</p>
+
+        <h2>The COVID distortion</h2>
+
+        <p>The most recent WHO data, for 2021, carries a warning about reading any single year in isolation. The US gap fell to 12.5 years, and Australia, with very low pandemic mortality that year, edged ahead at 12.5. This is not a US health improvement. US life expectancy fell from 78.7 years in 2019 to 76.4 in 2021 under COVID, and a gap narrows mechanically when lives are cut short before the unwell years accrue. The pre-pandemic 2019 figures are the cleaner picture of the structural gap, which is why we anchor the Index on them and flag 2021 as pandemic-distorted.</p>
+
+        <h2>What it means</h2>
+
+        <p>The Healthspan Gap reframes the longevity goal. The win is not only a longer life. It is compressing the unwell years at the end of it, what researchers call compression of morbidity. The data carries three lessons. The gap is widening over the long run, so living longer is not the same as aging better. The wealthiest health systems produce the widest gaps, so money and medicine extend survival faster than they preserve function. And the largest contributors to late-life morbidity, cardiometabolic and musculoskeletal decline, respond to the least glamorous interventions in longevity: strength and aerobic fitness, sleep, and metabolic health. That is where the gap is most likely to close.</p>
+
+        <h2>The data</h2>
+
+        <p>The full 185-country dataset, with life expectancy, healthy life expectancy, and the computed gap for 2000, 2019, and 2021, is available as a downloadable CSV under a Creative Commons Attribution license: <a href={CSV}>healthspan-gap-by-country.csv</a>. Reuse it freely with attribution to TheLongevityGPT.</p>
+
+        <h2>Methodology and sources</h2>
+
+        <p><strong>The index.</strong> Healthspan Gap = Life Expectancy at birth (LE) minus Healthy Life Expectancy at birth (HALE), in years, read as the average years lived in poor health at the end of life.</p>
+
+        <p><strong>Our computation.</strong> We retrieved LE (indicator WHOSIS_000001) and HALE (indicator WHOSIS_000002), both sexes combined, for all countries from the WHO Global Health Observatory OData API, and computed the gap per country and globally. Country figures are unrounded in the source data and shown to one decimal here. Extraction date: 2026-06-10. The computation is fully reproducible from the cited API and the published dataset.</p>
+
+        <p><strong>Validation.</strong> Our 2019 global figure (9.7 years) and the finding that the United States holds the widest gap reproduce the peer-reviewed analysis of Garmany and Terzic (JAMA Network Open, 2024), which reported a 9.6-year global mean using the same WHO source and the Sullivan method. Small differences in country-level values reflect periodic WHO revisions to its estimates since that study's data extraction.</p>
+
+        <p><strong>Sources.</strong> WHO Global Health Observatory (life expectancy and healthy life expectancy, 2000 to 2021). Garmany A, Terzic A, JAMA Network Open, 2024, for the validation benchmark and the 2000 to 2019 trend (8.5 to 9.6 years).</p>
+
+        <p><strong>Cited vs derived.</strong> All country and global gap figures are our own computation from WHO data and are labelled as our analysis. The 8.5-to-9.6 long-run trend is cited from the JAMA analysis.</p>
+
+        <p><strong>Limitations.</strong> HALE relies on modeled disability weights and varies in data quality by country. LE and HALE here are period, not cohort, measures. The 2019 reference year is pre-pandemic; 2021 figures are depressed by COVID mortality and should not be read as structural change. This report is educational and is not medical advice.</p>
+
+        <h2>Cite this report</h2>
+
+        <p><strong>Plain:</strong> TheLongevityGPT, "The Healthspan Gap Index 2026," published 10 June 2026. https://thelongevitygpt.com/reports/healthspan-gap-2026</p>
+
+        <p><strong>APA:</strong> TheLongevityGPT. (2026, June 10). <em>The Healthspan Gap Index 2026: The years we live, but not well.</em> https://thelongevitygpt.com/reports/healthspan-gap-2026</p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
