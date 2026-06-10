@@ -47,6 +47,8 @@ const jsonLd = [
       { '@type': 'PropertyValue', name: 'United States Healthspan Gap (2019), widest of 185', value: '12.7', unitText: 'years' },
       { '@type': 'PropertyValue', name: 'Narrowest gap, Somalia (2019)', value: '6.6', unitText: 'years' },
       { '@type': 'PropertyValue', name: 'Female minus male gap, global (2019)', value: '2.8', unitText: 'years' },
+      { '@type': 'PropertyValue', name: 'Healthspan Gap, high-income countries (2019)', value: '11.6', unitText: 'years' },
+      { '@type': 'PropertyValue', name: 'Healthspan Gap, low-income countries (2019)', value: '8.3', unitText: 'years' },
     ],
     distribution: [
       { '@type': 'DataDownload', encodingFormat: 'text/csv', name: 'Healthspan Gap by country (2000/2019/2021)', contentUrl: csvUrl },
@@ -122,6 +124,7 @@ const jsonLd = [
           <li><strong>Over the long run the gap is widening.</strong> The peer-reviewed record shows the global gap grew from 8.5 years in 2000 to 9.6 in 2019. Medicine is extending survival faster than it extends health.</li>
           <li id="sex-universal"><strong>Women's gap is wider in every country on Earth.</strong> In all 185 countries, women spend more years in poor health at the end of life than men. Globally, women's gap is 11.1 years against men's 8.3, a 2.8-year difference (our analysis of WHO data, 2019; consistent with the 2.4-year difference reported by Garmany and Terzic, 2024).</li>
           <li id="sex-us"><strong>In the US, women face a 14.1-year gap, men 11.4.</strong> American women outlive American men, but spend nearly 3 more years of that life in poor health (our analysis of WHO data, 2019).</li>
+          <li id="income"><strong>The gap climbs with national wealth.</strong> High-income countries average an 11.6-year gap against 8.3 years in low-income countries (our analysis of WHO data by World Bank income group, 2019). Wealth buys survival faster than it buys health.</li>
         </ul>
 
         <h2>A decade lived unwell</h2>
@@ -172,6 +175,24 @@ const jsonLd = [
 
         <p>Women outlive men in almost every country, but they do not spend those extra years in good health. We split the gap by sex for all 185 countries, and the result is one of the most consistent patterns in the data: <strong>in every single country, women's Healthspan Gap is wider than men's.</strong> Globally in 2019, women averaged 11.1 years in poor health at the end of life against men's 8.3, a difference of 2.8 years (consistent with the 2.4-year sex difference reported in the 2024 JAMA Network Open analysis). In the United States the split is 14.1 years for women against 11.4 for men. The widest sex gaps of all appear in Kuwait, Yemen, and Türkiye, where women's unwell years exceed men's by roughly four. This is the male-female health-survival paradox in two numbers: longer life for women, more of it carrying illness.</p>
 
+        <h2>The wealth gradient</h2>
+
+        <p>Grouping the same WHO data by World Bank income classification makes the economics of the gap explicit.</p>
+
+        <table>
+          <thead>
+            <tr><th>Income group (2019)</th><th>Life expectancy</th><th>Healthy life expectancy</th><th>Gap</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>High income</td><td>80.9</td><td>69.3</td><td><strong>11.6</strong></td></tr>
+            <tr><td>Upper-middle income</td><td>75.7</td><td>66.4</td><td>9.3</td></tr>
+            <tr><td>Lower-middle income</td><td>69.6</td><td>60.2</td><td>9.4</td></tr>
+            <tr><td>Low income</td><td>64.2</td><td>55.9</td><td>8.3</td></tr>
+          </tbody>
+        </table>
+
+        <p>The gradient is strongest at the extremes: high-income countries carry a gap more than three years wider than low-income countries, while the two middle bands sit nearly level at around nine and a half years. The pattern echoes the country ranking. As national income rises, life expectancy rises faster than healthy life expectancy, so the years of late-life illness stretch out. Wealth, as deployed by today's health systems, buys survival faster than it buys health.</p>
+
         <h2>What it means</h2>
 
         <p>The Healthspan Gap reframes the longevity goal. The win is not only a longer life. It is compressing the unwell years at the end of it, what researchers call compression of morbidity. The data carries three lessons. The gap is widening over the long run, so living longer is not the same as aging better. The wealthiest health systems produce the widest gaps, so money and medicine extend survival faster than they preserve function. And the largest contributors to late-life morbidity, cardiometabolic and musculoskeletal decline, respond to the least glamorous interventions in longevity: strength and aerobic fitness, sleep, and metabolic health. That is where the gap is most likely to close.</p>
@@ -184,7 +205,7 @@ const jsonLd = [
 
         <p><strong>The index.</strong> Healthspan Gap = Life Expectancy at birth (LE) minus Healthy Life Expectancy at birth (HALE), in years, read as the average years lived in poor health at the end of life.</p>
 
-        <p><strong>Our computation.</strong> We retrieved LE (indicator WHOSIS_000001) and HALE (indicator WHOSIS_000002), both sexes combined, for all countries from the WHO Global Health Observatory OData API, and computed the gap per country and globally. Country figures are unrounded in the source data and shown to one decimal here. Extraction date: 2026-06-10. The computation is fully reproducible from the cited API and the published dataset.</p>
+        <p><strong>Our computation.</strong> We retrieved LE (indicator WHOSIS_000001) and HALE (indicator WHOSIS_000002), both sexes combined, for all countries from the WHO Global Health Observatory OData API, and computed the gap per country and globally. We also computed it separately for men and women using the WHO sex-disaggregated series, for the 2019 by-sex dataset, and by national income using the WHO-published World Bank income-group aggregates of the same two indicators. Country figures are unrounded in the source data and shown to one decimal here. Extraction date: 2026-06-10. The computation is fully reproducible from the cited API and the published dataset.</p>
 
         <p><strong>Validation.</strong> Our 2019 global figure (9.7 years) and the finding that the United States holds the widest gap reproduce the peer-reviewed analysis of Garmany and Terzic (JAMA Network Open, 2024), which reported a 9.6-year global mean using the same WHO source and the Sullivan method. Small differences in country-level values reflect periodic WHO revisions to its estimates since that study's data extraction.</p>
 
